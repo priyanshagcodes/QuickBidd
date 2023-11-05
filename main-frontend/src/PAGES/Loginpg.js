@@ -17,7 +17,7 @@ export default function Loginpg() {
       <div>
         <img className='img3' src={img3} alt="" />
       </div>
-      {/* hello */}
+      {/* helloooo */}
     </>
   );
 }
