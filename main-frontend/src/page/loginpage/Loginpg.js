@@ -1,9 +1,9 @@
-
 import React from 'react';
 import './Loginpgstyl.css';
-import Quick_Bidd from '../Pictures/Quick_Bidd.jpg';
-import img2 from '../Pictures/img2.jpg' ;
-import img3 from '../Pictures/creators.png';
+import Quick_Bidd from '../../Pictures/Quick_Bidd.jpg';
+import img2 from '../../Pictures/img2.jpg' ;
+import img3 from '../../Pictures/creators.png';
+import LoginButton from '../../COMPONENTS/LoginButton';
 
 export default function Loginpg() {
   return (
@@ -17,7 +17,8 @@ export default function Loginpg() {
       <div>
         <img className='img3' src={img3} alt="" />
       </div>
-      {/* helloooo guys */}
+      
+      <LoginButton/>
     </>
   );
 }

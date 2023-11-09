@@ -1,10 +1,13 @@
 import './App.css';
-import Loginpg from './PAGES/Loginpg';
+//import Loginpg from './page/loginpage/Loginpg';
+import HomePage from './page/homepage/HomePage';
 
 function App() {
   return (
     <>
-      <Loginpg></Loginpg>
+      {/* <Loginpg></Loginpg> */}
+      <HomePage></HomePage>
+     
     </>
   );
 }
